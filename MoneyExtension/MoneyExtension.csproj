@@ -4,6 +4,25 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+ <PackageId>MoneyExtensionsJoi</PackageId>
+    <Version>1.0.0</Version>
+    <License>MIT</License>
+    <Authors>Joice Fogaça</Authors>
+    <Company>joi.fogaca</Company>
+    <PackageDescription>Extension to Convert decimal to integer</PackageDescription>
+    <Description>Extension to Convert decimal to integer</Description>
+    <RepositoryUrl>https://github.com/joifogaca/money-extensions</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/joifogaca/money-extensions</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>money-bag.png</PackageIcon>
+    <PackageTags>money; int; decimal; converter</PackageTags>
+    <Title>MoneyExtensions - Joi</Title>
+    <Summary></Summary>
   </PropertyGroup>
+
+  <ItemGroup>
+  <None Include="..\Media\money-bag.png" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 
 </Project>

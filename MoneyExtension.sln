@@ -3,17 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyExtension", "MoneyExtension\MoneyExtension.csproj", "{A4B48878-3CD8-4493-B42D-8FF1CE5A0DAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoneyExtension", "MoneyExtension\MoneyExtension.csproj", "{A4B48878-3CD8-4493-B42D-8FF1CE5A0DAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyExtension.Tests", "MoneyExtension.Tests\MoneyExtension.Tests.csproj", "{63D0D6C9-6DB7-46BF-9309-762C8F916B7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoneyExtension.Tests", "MoneyExtension.Tests\MoneyExtension.Tests.csproj", "{63D0D6C9-6DB7-46BF-9309-762C8F916B7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{ACE8666B-1DFE-42BE-A4CF-7AD74857C101}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{355DF143-2558-4FA5-B115-CDAAFE1CB54E}"
+	ProjectSection(SolutionItems) = preProject
+		main.yml = main.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{A4B48878-3CD8-4493-B42D-8FF1CE5A0DAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -24,5 +28,11 @@ Global
 		{63D0D6C9-6DB7-46BF-9309-762C8F916B7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63D0D6C9-6DB7-46BF-9309-762C8F916B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63D0D6C9-6DB7-46BF-9309-762C8F916B7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{355DF143-2558-4FA5-B115-CDAAFE1CB54E} = {ACE8666B-1DFE-42BE-A4CF-7AD74857C101}
 	EndGlobalSection
 EndGlobal
